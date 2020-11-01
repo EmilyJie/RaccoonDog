@@ -1,0 +1,181 @@
+html {
+    width: 1440px;
+    height: 4090px;
+    background-color: #FFD2A6;
+}
+
+@font-face {
+    font-family: 'jf-openhuninn-1.1';
+    src: url(../font/jf-openhuninn-1.1.woff) format("woff"),
+        url(../font/jf-openhuninn-1.1.ttf) format("truetype"),
+        url(../font/jf-openhuninn-1.1.eot) format("embedded-opentype");
+}
+
+.sidebar {
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+    position: fixed;
+    width: 100px;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    cursor: default;
+    background-color: #534847;
+}
+
+.menu {
+    position: relative;
+    left: 29.17%;
+    right: 29.17%;
+    top: 1.08%;
+    ssbottom: 97.85%;
+}
+
+header {
+    position: relative;
+    width: 1340px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+}
+
+.top-logo {
+    position: absolute;
+    width: 76px;
+    height: 58px;
+    left: 30px;
+    top: 30px;
+}
+
+.raccoonface {
+    margin-top: -0.7%;
+    margin-left: 0.1%;
+    width: 1400px;
+    height: 740px;
+}
+
+.home-title1 {
+    background: #58514B;
+    border-radius: 30px;
+    padding: 10px 20px;
+    position: absolute;
+    height: 56px;
+    left: 41.2%;
+    top: 5%;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.5rem;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.home-title2 {
+    background: #58514B;
+    border-radius: 30px;
+    padding: 10px 20px;
+    position: absolute;
+    height: 56px;
+    left: 43%;
+    top: 63%;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.5rem;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.knowme {
+    background: #EC7357;
+    border-radius: 70px;
+    background-position: center;
+    position: absolute;
+    padding: 20px 15px;
+    width: 196px;
+    height: 28px;
+    left: 44.5%;
+    top: 82%;
+    font-family: 'Itim', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.75rem;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.name {
+    position: relative;
+    top: 0%;
+    height: 604.76px;
+}
+
+.myname {
+    background: #FFFFFF;
+    box-shadow: 0px 41px 4px rgba(0, 0, 0, 0.25);
+    background-position: right matrix(1, -0.1, -0.03, -1, 0, 0);
+    background-size: 316.62px 110px;
+    padding-left: 3.5%;
+    position: relative;
+    width: 25%;
+    left: -1%;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    color: #EC7357;
+    transform: matrix(1, -0.1, 0.03, 1, 0, 0);
+}
+
+.raccoonname {
+    position: relative;
+    width: 1440px;
+    height: 378.88px;
+    left: -1%;
+    bottom: 10%;
+    background: #FFFFFF;
+    box-shadow: 0px 41px 4px rgba(0, 0, 0, 0.25);
+    transform: matrix(1, -0.1, 0.03, 1, 0, 0);
+}
+
+.raccoonname1 {
+    position: relative;
+    width: 1260px;
+    height: 121px;
+    left: 5%;
+    top: 5%;
+    font-family: 'Amaranth', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6.5rem;
+    color: #534847;
+    transform: matrix(1, 0, 0.03, 1, 0, 0);
+}
+
+.raccoonname2 {
+    position: relative;
+    width: 1260px;
+    height: 121px;
+    left: 5%;
+    font-family: 'Amaranth', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6.5rem;
+    -webkit-text-stroke: 5px #534847;
+    color:  white;
+    transform: matrix(1, 0, 0.03, 1, 0, 0);
+}
+
+.intro {
+    position: relative;
+    width: 1364px;
+    height: 675px;
+    top: 50%;
+}
+
+.intro-img {
+    position: relative;
+    width: 700px;
+    top: 5%;
+}
