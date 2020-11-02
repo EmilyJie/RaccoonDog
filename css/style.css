@@ -167,13 +167,98 @@ header {
 }
 
 .intro {
-    position: absolute;
-    width: 1364px;
-    height: 675px;
+    position: relative;
     left: -24px;
-    top: 1630px;
+    top: 100px;
+    display: flex;
 }
 
+.intro-img {
+    width: 700px;
+    height: 600px;
+}
 
+.intro-text {
+    background-image: url(../img/home/intro-bg.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 743px;
+    height: 675px;
+    left: 775px;
+}
 
+.intro-text h1{
+    position: relative;
+    top: 30%;
+    left: 15%;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    line-height: 48px;
+    color: #000000;
+}
 
+.intro-text p{
+    position: relative;
+    left: 35%;
+    top: 30%;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    color: #534847;
+}
+
+.intro-click {
+    position: relative;
+    left: 40%;
+    top: 30%;
+}
+
+.story {
+    position: relative;
+    left: -4px;
+    top: 350px;
+    display: flex;
+}
+
+.story-bg {
+    position: relative;
+    left: -0.5%;
+    width: 1440px;
+    height: 654px;
+}
+
+.story-text {
+    position: absolute;
+    width: 743px;
+    height: 675px;
+}
+
+.story-text h1 {
+    position: relative;
+    top: 40%;
+    left: 35%;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.story-text p {
+    position: relative;
+    left: 35%;
+    top: 40%;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.story-img {
+
+}
