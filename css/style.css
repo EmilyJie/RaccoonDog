@@ -167,17 +167,13 @@ header {
 }
 
 .intro {
-    position: relative;
+    position: absolute;
     width: 1364px;
     height: 675px;
-    top: 50%;
+    left: -24px;
+    top: 1630px;
 }
 
-.intro-img {
-    position: relative;
-    width: 700px;
-    
-}
 
 
 
