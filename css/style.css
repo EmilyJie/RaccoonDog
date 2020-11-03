@@ -17,11 +17,6 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    width: 1440px;
-    height: 100%;
-}
-
 .sidebar {
     z-index: 1;
     overflow-x: hidden;
@@ -35,7 +30,7 @@ body {
 }
 
 .menu {
-    position: relative;
+    position: absolute;
     margin: 35px 29.17px;
 }
 
@@ -184,7 +179,7 @@ header {
     width: 875px;
     height: 410px;
     position: absolute;
-    margin: 1654px 547px 1391px 42px;
+    margin: 1654px 547px 1300px 42px;
 }
 
 .intro-img {
@@ -285,7 +280,8 @@ header {
     width: 875px;
     height: 410px;
     position: absolute;
-    margin: 2590px 547px 1391px 42px;
+    margin-top: 2590px;
+    margin-left: 42px;
 }
 
 .guess-img {
