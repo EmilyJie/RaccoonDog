@@ -1,13 +1,30 @@
+html {
+    width: 1440px;
+    height: 100%;
+    background-color: #FFD2A6;
+}
+
 @font-face {
     font-family: 'jf-openhuninn-1.1';
     src: url(../font/jf-openhuninn-1.1.woff) format("woff"),
         url(../font/jf-openhuninn-1.1.ttf) format("truetype"),
         url(../font/jf-openhuninn-1.1.eot) format("embedded-opentype");
 }
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 1440px;
+    height: 100%;
+}
+
 .sidebar {
     z-index: 1;
     overflow-x: hidden;
-    padding-top: 20px;
     position: fixed;
     width: 100px;
     height: 100%;
@@ -16,17 +33,306 @@
     cursor: default;
     background-color: #534847;
 }
+
 .menu {
     position: relative;
-    left: 29.17%;
-    right: 29.17%;
-    top: 1.08%;
-    ssbottom: 97.85%;
+    margin: 35px 29.17px;
 }
+
+.container {
+    position: absolute;
+    max-width: 1440px;
+    left: 0px;
+    top: 0px;
+    background-color: #FFD2A6;
+}
+
+header {
+    position: absolute;
+    width: 1440px;
+    height: 800px;
+    margin: 0px;
+}
+
 .top-logo {
     position: absolute;
     width: 76px;
     height: 58px;
-    left: 30px;
-    top: 30px;
+    margin: 30px;
+}
+
+.header_bg {
+    margin-left: 15px;
+    width: 1380px;
+    height: 700px;
+}
+
+.story-p {
+    background-color: #68493E;
+    border-radius: 70px;
+    padding: 10px 20px;
+    width: 96px;
+    position: absolute;
+    margin-top: -620px;
+    margin-left: 319px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.whatlook {
+    position: absolute;
+    margin-top: -500px; 
+    margin-left: 405px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 68px;
+    color: #000000;
+}
+
+.wheretolive {
+    position: absolute;
+    margin-top: -380px; 
+    margin-left: 700px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 68px;
+    color: #68493E;
+}
+
+.whatilove {
+    position: absolute;
+    margin-top: -260px; 
+    margin-left: 405px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 68px;
+    color: #000000;
+}
+
+.separate-box1 {
+    position: absolute;
+    width: 1420px;
+    height: 108px;
+    margin-top: 800px;
+    background-color: #68493E;
+}
+
+.separate-box1 p {
+    position: absolute;
+    margin: 43px 662px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 22px;
+    color: #FFD2A6;
+}
+
+.appearance {
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    margin-top: 908px;
+}
+
+.appearance h1 {
+    z-index: 1;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 520px;
+    font-family: 'Amaranth', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.5rem;
+    line-height: 84px;
+    color: #FFD2A6;
+}
+
+.appearance-text {
+    position: absolute;
+    margin-top: 0px;
+    width: 724px;
+    height: 600px;
+    padding-top: 200px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 60px;
+    text-align: center;
+    color: #FEF8F1;
+    width: 724px;
+    background-color: #AC816E;
+}
+
+.appearance-img {
+    position: absolute;
+    width: 557px;
+    height: 353px;
+    margin: 210px 88px 10px 795px;
+}
+
+.appearance-img h1 {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 180px;
+    width: 432px;
+    height: 169px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9rem;
+    line-height: 169px;
+    text-align: center;
+    -webkit-text-stroke: 2px #68493E;
+    color:  #FFD2A6;
+}
+
+.separate-box2 {
+    position: absolute;
+    width: 1420px;
+    height: 108px;
+    margin-top: 1708px;
+    background-color: #68493E;
+}
+
+.separate-box2 p {
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 270px;
+    width: 900px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 22px;
+    color: #FFD2A6;
+}
+
+.liveplace {
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    margin-top: 1816px;
+}
+
+.liveplace h1 {
+    z-index: 1;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 59s0px;
+    font-family: 'Amaranth', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.5rem;
+    line-height: 84px;
+    color: #FFD2A6;
+}
+
+.liveplace-img {
+    position: absolute;
+    width: 557px;
+    height: 353px;
+    margin: 210px 800px 10px 55px;
+}
+
+.liveplace-img h1 {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: -10px;
+    width: 580px;
+    height: 169px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9rem;
+    line-height: 169px;
+    text-align: center;
+    color: rgba(104, 73, 62, 0.49);
+}
+
+.liveplace-text {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 720px;
+    width: 724px;
+    height: 600px;
+    padding-top: 200px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 60px;
+    text-align: center;
+    color: #FEF8F1;
+    width: 724px;
+    background-color: #AC816E;
+}
+
+footer {
+    position: absolute;
+    background-image: url(../img/footer-bg.png);
+    background-size: 1440px 292px;
+    margin-top: 3200px;
+    left: 0px;
+    width: 1440px;
+    height: 292px;
+}
+
+.footer-logo {
+    position: absolute;
+    margin: 160px 900px 37px 320px;
+}
+
+.footer-text {
+    position: absolute;
+    margin: 160px 715px 58px 430px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: #000000;
+}
+
+.brand {
+    position: absolute;
+    width: 330px;
+    height: 50px;
+    margin: 150px 293.52px 92px 838px;
+}
+
+.line, .fb, .ig{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.mail {
+    margin-left: 3px;
+    margin-bottom: 2px;
+    width: 45px;
+    height: 40px;
+}
+
+.copyright {
+    position: absolute;
+    margin-left: -50px;
+    font-family: 'Amaranth', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.53);
 }
