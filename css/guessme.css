@@ -1,9 +1,24 @@
+html {
+    width: 1440px;
+    height: 100%;
+    background-color: #FFD2A6;
+}
 @font-face {
     font-family: 'jf-openhuninn-1.1';
     src: url(../font/jf-openhuninn-1.1.woff) format("woff"),
         url(../font/jf-openhuninn-1.1.ttf) format("truetype"),
         url(../font/jf-openhuninn-1.1.eot) format("embedded-opentype");
 }
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 1440px;
+    height: 100%;
+}
+
 .sidebar {
     z-index: 1;
     overflow-x: hidden;
@@ -29,4 +44,210 @@
     height: 58px;
     left: 30px;
     top: 30px;
+}
+.container {
+    position: absolute;
+    max-width: 1440px;
+    left: 0px;
+    top: 0px;
+    background-color: #FFD2A6;
+}
+header {
+    position: absolute;
+    width: 1440px;
+    height: 800px;
+    margin: 0px;
+}
+.header_bg {
+    margin-left: 15px;
+    width: 1380px;
+    height: 700px;
+}
+.header_text1{
+    position: absolute;
+    margin-top: -500px; 
+    margin-left: 405px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 68px;
+    color: #000000;
+}
+.header_text2{
+    position: absolute;
+    margin-top: -380px; 
+    margin-left: 400px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6rem;
+    line-height: 68px;
+    color: #68493E;
+}
+.header_text3{
+    position: absolute;
+    margin-top: -280px; 
+    margin-left: 705px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    line-height: 68px;
+    color: #928786;
+}
+.separate-box1 {
+    position: absolute;
+    width: 1420px;
+    height: 108px;
+    margin-top: 800px;
+    background-color: #68493E;
+}
+.separate-box1 p {
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 630px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 22px;
+    color: #FFD2A6;
+}
+.game{
+    position: absolute;
+    width: 1440px;
+    height: 1572px;
+    margin-top: 908px;
+}
+.game h1{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 530px;
+    font-weight: bold;
+    font-size: 4.5rem;
+}
+.game p{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 360px;
+    width: 700px;
+    height: 120px;
+    padding-top: 200px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 60px;
+    text-align: center;
+    color:black;
+}
+.game_img{
+    width:1300px;
+    height:1300px;
+    margin-top: 370px;
+    margin-left: 95px;
+}
+.game_img1{
+    margin: 30px 30px 30px 30px;
+}
+.game_img2{
+    margin: 30px 30px 30px 30px;
+}
+.game_img3{
+    margin: 30px 30px 30px 30px;
+}
+.game_img4{
+    margin: 30px 30px 30px 30px;
+}
+.game_img5{
+    margin: 30px 30px 30px 30px;
+}
+.game_img6{
+    margin: 30px 30px 30px 30px;
+}
+.game_img7{
+    margin: 30px 30px 30px 30px;
+}
+.game_img8{
+    margin: 30px 30px 30px 30px;
+}
+.game_img9{
+    margin: 30px 30px 30px 30px;
+}
+.separate-box2 {
+    position: absolute;
+    width: 1420px;
+    height: 108px;
+    margin-top:2600px;
+    background-color: #68493E;
+}
+.separate-box2 p {
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 590px;
+    width: 900px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 22px;
+    color: #FFD2A6;
+}
+footer {
+    position: absolute;
+    background-image: url(../img/footer-bg.png);
+    background-size: 1440px 292px;
+    margin-top: 2820px;;
+    left: 0px;
+    width: 1440px;
+    height: 292px;
+}
+
+.footer-logo {
+    position: absolute;
+    margin: 160px 900px 37px 320px;
+}
+
+.footer-text {
+    position: absolute;
+    margin: 160px 715px 58px 430px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: #000000;
+}
+
+.brand {
+    position: absolute;
+    width: 330px;
+    height: 50px;
+    margin: 150px 293.52px 92px 838px;
+}
+
+.line, .fb, .ig{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.mail {
+    margin-left: 3px;
+    margin-bottom: 2px;
+    width: 45px;
+    height: 40px;
+}
+
+.copyright {
+    position: absolute;
+    margin-left: -50px;
+    font-family: 'Amaranth', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.53);
 }
