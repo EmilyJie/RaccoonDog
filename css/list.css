@@ -24,12 +24,13 @@ body {
     right: 0px;
     top: 0px;
     cursor: default;
-    background-color: #534847;
+    background-color: #FFD2A6;
 }
 
 .close {
     position: relative;
-    margin: 35px 29.17px;
+    margin-top: 25px;
+    margin-left: 20px;
 }
 
 ul li{
@@ -37,54 +38,92 @@ ul li{
 }
 
 .container{
+    margin: 0%;
     display:flex;
 }
+
 .left_text{
     margin-top:148px;
     margin-left:227px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.5rem;
+    line-height: 100px;
+    text-align: center;
+    color:#534847;
 }
-.right_text{
-    margin-top: 148px;
-    margin-left: 250px;
 
-}
 .introduce_bg{
     width:374px;
     height:100px;
     background-color: #FFD2A6;
     margin-bottom: 50px;
 }
-.introduce li{
-    font-family: 'jf-openhuninn-1.1';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 3.5rem;
-    line-height: 56px;
-    color: #FFFFFF;
 
+.introduce_bg:hover {
+    transform: scale(1.2);
 }
+
 .story_bg{
     width:374px;
     height:100px;
     background-color: #FFD2A6;
     margin-bottom: 50px;
 }
+
+.story_bg:hover {
+    transform: scale(1.2);
+}
+
 .guessme_bg{
     width:374px;
     height:100px;
     background-color: #FFD2A6;
     margin-bottom: 50px;
 }
-.right_text_p{
-    text-align: center;
 
+.guessme_bg:hover {
+    transform: scale(1.2);
 }
+
+.right_text{
+    margin-top: 240px;
+    margin-left: 250px;
+}
+
+.right_text_p h1{
+    text-align: center;
+    margin-left: 0px;
+    font-family: 'Amaranth', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    line-height: 30px;
+    text-align: center;
+    color: #FFD2A6;
+}
+
+.right_text_p p {
+    text-align: center;
+    margin-left: 0px;
+    font-family: 'Amaranth', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
 .pic_social{
-    
+    margin-left: 30px;
 }
+
 .fb,.line,.ig{
     margin-right: 20px;;
 }
+
 .mail{
     margin-bottom: 5px;
 }

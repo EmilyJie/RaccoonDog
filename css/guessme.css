@@ -24,7 +24,6 @@ body {
 .sidebar {
     z-index: 1;
     overflow-x: hidden;
-    padding-top: 20px;
     position: fixed;
     width: 100px;
     height: 100%;
@@ -32,14 +31,13 @@ body {
     top: 0px;
     cursor: default;
     background-color: #534847;
+    float: left;
 }
 
 .menu {
     position: relative;
-    left: 29.17%;
-    right: 29.17%;
-    top: 1.08%;
-    bottom: 97.85%;
+    margin: 35px 29.17px;
+    cursor: pointer;
 }
 
 .container {

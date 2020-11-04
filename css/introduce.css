@@ -32,11 +32,13 @@ body {
     top: 0px;
     cursor: default;
     background-color: #534847;
+    float: left;
 }
 
 .menu {
     position: relative;
     margin: 35px 29.17px;
+    cursor: pointer;
 }
 
 .container {
