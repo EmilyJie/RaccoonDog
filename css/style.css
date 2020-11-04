@@ -58,7 +58,8 @@ header {
     position: absolute;
     width: 76px;
     height: 58px;
-    margin: 30px;
+    margin-top: 30px;
+    margin-left: 60px;
 }
 
 .raccoonface {
@@ -69,7 +70,7 @@ header {
 
 .home-title1 {
     background: #58514B;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 10px 20px;
     position: absolute;
     height: 56px;
@@ -85,7 +86,7 @@ header {
 
 .home-title2 {
     background: #58514B;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 10px 20px;
     position: absolute;
     height: 56px;
@@ -119,17 +120,18 @@ header {
 
 .name {
     position: absolute;
-    margin-top: 950.2px;
+    margin-top: 950px;
     height: 604.76px;
 }
 
 .myname {
     background: #FFFFFF;
     box-shadow: 0px 41px 4px rgba(0, 0, 0, 0.25);
-    background-position: right matrix(1, -0.1, -0.03, -1, 0, 0);
+    background-position:matrix(1, -0.1, -0.03, -1, 0, 0);
     background-size: 316.62px 110px;
     position: absolute;
-    margin-left: 25px;
+    margin-left: 30px;
+    padding-left: 25px;
     width: 316px;
     font-family: 'jf-openhuninn-1.1';
     font-style: normal;
@@ -184,11 +186,11 @@ header {
     width: 875px;
     height: 410px;
     position: absolute;
-    margin: 1654px 547px 1391px 42px;
+    margin: 1654px 547px 1380px 42px;
 }
 
 .intro-img {
-    width: 350px;
+    width: 380px;
     height: 330px;
     margin: 26px 512.32px 25.59px 16px;
 }
@@ -196,7 +198,6 @@ header {
 .intro-text {
     position: absolute;
     width: 800px;
-    height: 675px;
     margin-top: -315px;
 }
 
@@ -233,19 +234,19 @@ header {
     position: absolute;
     width: 874px;
     height: 410px;
-    margin: 2122px 70px 923px 517px;
+    margin-top: 2122px;
+    margin-left:  517px;
 }
 
 .story-text {
     position: absolute;
-    width: 800px;
-    height: 675px;
+    width: 450px;
     margin-top: -250px;
 }
 
 .story-text h1 {
     position: absolute;
-    top: 45%;
+    margin-top: 335px;
     margin-left: 140px;
     font-family: 'jf-openhuninn-1.1';
     font-style: normal;
@@ -298,7 +299,7 @@ header {
 .guess-text {
     position: absolute;
     width: 870px;
-    height: 675px;
+    height: 200px;
     margin-top: -300px;
 }
 

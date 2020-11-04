@@ -32,6 +32,7 @@ body {
     cursor: default;
     background-color: #534847;
 }
+
 .menu {
     position: relative;
     left: 29.17%;
@@ -39,12 +40,13 @@ body {
     top: 1.08%;
     ssbottom: 97.85%;
 }
+
 .top-logo {
     position: absolute;
     width: 76px;
     height: 58px;
-    left: 30px;
-    top: 30px;
+    margin-top: 30px;
+    margin-left: 60px;
 }
 
 .container {

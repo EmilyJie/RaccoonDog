@@ -3,12 +3,14 @@ html {
     height: 100%;
     background-color: #FFD2A6;
 }
+
 @font-face {
     font-family: 'jf-openhuninn-1.1';
     src: url(../font/jf-openhuninn-1.1.woff) format("woff"),
         url(../font/jf-openhuninn-1.1.ttf) format("truetype"),
         url(../font/jf-openhuninn-1.1.eot) format("embedded-opentype");
 }
+
 *:before,
 *:after {
     box-sizing: inherit;
@@ -31,6 +33,7 @@ body {
     cursor: default;
     background-color: #534847;
 }
+
 .menu {
     position: relative;
     left: 29.17%;
@@ -38,13 +41,7 @@ body {
     top: 1.08%;
     ssbottom: 97.85%;
 }
-.top-logo {
-    position: absolute;
-    width: 76px;
-    height: 58px;
-    left: 30px;
-    top: 30px;
-}
+
 .container {
     position: absolute;
     max-width: 1440px;
@@ -52,18 +49,29 @@ body {
     top: 0px;
     background-color: #FFD2A6;
 }
+
 header {
     position: absolute;
     width: 1440px;
     height: 800px;
     margin: 0px;
 }
-.header_bg {
+
+.top-logo {
+    position: absolute;
+    width: 76px;
+    height: 58px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.header-bg {
     margin-left: 15px;
     width: 1380px;
     height: 700px;
 }
-.header_text1{
+
+.header-text1{
     position: absolute;
     margin-top: -500px; 
     margin-left: 405px;
@@ -74,7 +82,8 @@ header {
     line-height: 68px;
     color: #000000;
 }
-.header_text2{
+
+.header-text2{
     position: absolute;
     margin-top: -380px; 
     margin-left: 400px;
@@ -85,9 +94,10 @@ header {
     line-height: 68px;
     color: #68493E;
 }
-.header_text3{
+
+.header-text3{
     position: absolute;
-    margin-top: -280px; 
+    margin-top: -270px; 
     margin-left: 705px;
     font-family: 'jf-openhuninn-1.1';
     font-style: normal;
@@ -96,6 +106,7 @@ header {
     line-height: 68px;
     color: #928786;
 }
+
 .separate-box1 {
     position: absolute;
     width: 1420px;
@@ -103,6 +114,7 @@ header {
     margin-top: 800px;
     background-color: #68493E;
 }
+
 .separate-box1 p {
     position: absolute;
     margin-top: 43px;
@@ -114,19 +126,23 @@ header {
     line-height: 22px;
     color: #FFD2A6;
 }
+
 .game{
     position: absolute;
     width: 1440px;
     height: 1572px;
     margin-top: 908px;
 }
+
 .game h1{
     position: absolute;
     margin-top: 60px;
     margin-left: 530px;
+    font-family: 'jf-openhuninn-1.1';
     font-weight: bold;
     font-size: 4.5rem;
 }
+
 .game p{
     position: absolute;
     margin-top: -20px;
@@ -142,39 +158,51 @@ header {
     text-align: center;
     color:black;
 }
+
 .game_img{
     width:1300px;
     height:1300px;
     margin-top: 370px;
     margin-left: 95px;
 }
+
 .game_img1{
     margin: 30px 30px 30px 30px;
 }
+
 .game_img2{
     margin: 30px 30px 30px 30px;
 }
+
 .game_img3{
+   
     margin: 30px 30px 30px 30px;
 }
+
 .game_img4{
     margin: 30px 30px 30px 30px;
 }
+
 .game_img5{
     margin: 30px 30px 30px 30px;
 }
+
 .game_img6{
     margin: 30px 30px 30px 30px;
 }
+
 .game_img7{
     margin: 30px 30px 30px 30px;
 }
+
 .game_img8{
     margin: 30px 30px 30px 30px;
 }
+
 .game_img9{
     margin: 30px 30px 30px 30px;
 }
+
 .separate-box2 {
     position: absolute;
     width: 1420px;
@@ -182,6 +210,7 @@ header {
     margin-top:2600px;
     background-color: #68493E;
 }
+
 .separate-box2 p {
     position: absolute;
     margin-top: 43px;
@@ -194,6 +223,7 @@ header {
     line-height: 22px;
     color: #FFD2A6;
 }
+
 footer {
     position: absolute;
     background-image: url(../img/footer-bg.png);
