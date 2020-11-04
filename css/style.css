@@ -240,14 +240,15 @@ header {
 .story-text {
     position: absolute;
     width: 800px;
-    height: 675px;
-    margin-top: -250px;
+    height: 380px;
+    
 }
 
 .story-text h1 {
     position: absolute;
     top: 45%;
     margin-left: 140px;
+    margin-top: -80px;
     font-family: 'jf-openhuninn-1.1';
     font-style: normal;
     font-weight: normal;
@@ -258,8 +259,8 @@ header {
 
 .story-text p {
     position: absolute;
-    margin-top: 400px;
-    margin-left: 210px;
+    margin-top: 160px;
+    margin-left: 200px;
     font-family: 'jf-openhuninn-1.1';
     font-style: normal;
     font-weight: normal;
@@ -269,8 +270,8 @@ header {
 
 .story-click {
     position: absolute;
-    margin-top: 470px;
-    margin-left: 200px;
+    margin-top: 230px;
+    margin-left: 190px;
 }
 
 .story-img {
