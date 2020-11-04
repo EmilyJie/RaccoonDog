@@ -216,18 +216,19 @@ header {
     position: absolute;
     margin-top: 90px;
     margin-left: 485px;
+    margin-bottom: 32px;
     font-family: 'jf-openhuninn-1.1';
     font-style: normal;
     font-weight: normal;
     font-size: 2rem;
     color: #534847;
 }
-
-.intro-click {
+.intro-click{
     position: absolute;
-    margin-top: 160px;
-    margin-left: 525px;
+    margin-top:160px;
+    margin-left: 520px;
 }
+
 
 .story {
     background-image: url(../img/home/story-bg.png);
@@ -241,13 +242,14 @@ header {
 .story-text {
     position: absolute;
     width: 450px;
-    margin-top: -250px;
+    margin-top: 0px;
 }
 
 .story-text h1 {
     position: absolute;
     margin-top: 335px;
     margin-left: 140px;
+    margin-top: 95px;
     font-family: 'jf-openhuninn-1.1';
     font-style: normal;
     font-weight: normal;
@@ -258,8 +260,8 @@ header {
 
 .story-text p {
     position: absolute;
-    margin-top: 400px;
-    margin-left: 210px;
+    margin-top: 160px;
+    margin-left: 200px;
     font-family: 'jf-openhuninn-1.1';
     font-style: normal;
     font-weight: normal;
@@ -269,8 +271,8 @@ header {
 
 .story-click {
     position: absolute;
-    margin-top: 470px;
-    margin-left: 200px;
+    margin-top: 230px;
+    margin-left: 190px;
 }
 
 .story-img {
@@ -316,7 +318,7 @@ header {
 
 .guess-text p{
     position: absolute;
-    margin-top: 90px;
+    margin-top: 95px;
     margin-left: 400px;
     font-family: 'jf-openhuninn-1.1';
     font-style: normal;

@@ -39,7 +39,7 @@ body {
     left: 29.17%;
     right: 29.17%;
     top: 1.08%;
-    ssbottom: 97.85%;
+    bottom: 97.85%;
 }
 
 .container {
@@ -281,3 +281,4 @@ footer {
     letter-spacing: 0.05em;
     color: rgba(0, 0, 0, 0.53);
 }
+
