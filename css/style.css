@@ -118,6 +118,10 @@ header {
     color: #FFFFFF;
 }
 
+.knowme:hover {
+    transform: scale(1.2);
+}
+
 .name {
     position: absolute;
     margin-top: 950px;
@@ -223,12 +227,16 @@ header {
     font-size: 2rem;
     color: #534847;
 }
-.intro-click{
+
+.intro-click {
     position: absolute;
     margin-top:160px;
     margin-left: 520px;
 }
 
+.intro-click:hover {
+    transform: scale(1.2);
+}
 
 .story {
     background-image: url(../img/home/story-bg.png);
@@ -274,6 +282,11 @@ header {
     margin-top: 230px;
     margin-left: 190px;
 }
+
+.story-click:hover {
+    transform: scale(1.2);
+}
+
 
 .story-img {
     position: absolute;
@@ -331,6 +344,10 @@ header {
     position: absolute;
     margin-top: 160px;
     margin-left: 500px;
+}
+
+.guess-click:hover {
+    transform: scale(1.2);
 }
 
 footer {
