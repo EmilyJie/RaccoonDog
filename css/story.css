@@ -72,11 +72,7 @@ header {
     width: 130px;
     position: absolute;
     margin-top: -620px;
-<<<<<<< HEAD
-    margin-left: 319px;
-=======
     margin-left: 315px;
->>>>>>> b010b4d380d829efe32eaaecc3f5c166f53fb62d
     font-family: 'jf-openhuninn-1.1';
     font-style: normal;
     font-weight: normal;
@@ -87,11 +83,7 @@ header {
 .header_text1 {
     position: absolute;
     margin-top: -500px; 
-<<<<<<< HEAD
-    margin-left: 405px;
-=======
     margin-left: 345px;
->>>>>>> b010b4d380d829efe32eaaecc3f5c166f53fb62d
     font-family: 'jf-openhuninn-1.1';
     font-style: normal;
     font-weight: normal;
@@ -102,11 +94,7 @@ header {
 .header_text2 {
     position: absolute;
     margin-top: -380px; 
-<<<<<<< HEAD
-    margin-left: 350px;
-=======
     margin-left: 280px;
->>>>>>> b010b4d380d829efe32eaaecc3f5c166f53fb62d
     font-family: 'jf-openhuninn-1.1';
     font-style: normal;
     font-weight: normal;
@@ -117,11 +105,7 @@ header {
 .header_text3 {
     position: absolute;
     margin-top: -260px; 
-<<<<<<< HEAD
-    margin-left: 510px;
-=======
     margin-left: 470px;
->>>>>>> b010b4d380d829efe32eaaecc3f5c166f53fb62d
     font-family: 'jf-openhuninn-1.1';
     font-style: normal;
     font-weight: normal;
@@ -129,39 +113,25 @@ header {
     line-height: 68px;
     color: #000000;
 }
-<<<<<<< HEAD
-.separate-box1 {
-    position: absolute;
-    width: 1450px;
-=======
 
 .separate-box1 {
     position: absolute;
     width: 1420px;
->>>>>>> b010b4d380d829efe32eaaecc3f5c166f53fb62d
     height: 108px;
     margin-top: 800px;
     background-color: #68493E;
 }
-<<<<<<< HEAD
-.separate-box1 p {
-    position: absolute;
-    margin: 43px 662px;
-=======
 
 .separate-box1 p {
     position: absolute;
     margin: 43px 690px;
     width: 300px;
->>>>>>> b010b4d380d829efe32eaaecc3f5c166f53fb62d
     font-family: 'jf-openhuninn-1.1';
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
     line-height: 22px;
     color: #FFD2A6;
-<<<<<<< HEAD
-=======
 }
 
 .story1 {
@@ -459,5 +429,4 @@ footer {
     line-height: 18px;
     letter-spacing: 0.05em;
     color: rgba(0, 0, 0, 0.53);    
->>>>>>> b010b4d380d829efe32eaaecc3f5c166f53fb62d
 }
