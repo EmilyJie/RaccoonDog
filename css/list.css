@@ -4,6 +4,12 @@ html{
     background-color:#534847;
 
 }
+@font-face {
+    font-family: 'jf-openhuninn-1.1';
+    src: url(../font/jf-openhuninn-1.1.woff) format("woff"),
+        url(../font/jf-openhuninn-1.1.ttf) format("truetype"),
+        url(../font/jf-openhuninn-1.1.eot) format("embedded-opentype");
+}
 body {
     width: 1440px;
     height: 100%;
@@ -31,7 +37,54 @@ ul li{
 }
 
 .container{
-    margin:50px 30px 30px 30px;
     display:flex;
+}
+.left_text{
+    margin-top:148px;
+    margin-left:227px;
+}
+.right_text{
+    margin-top: 148px;
+    margin-left: 250px;
 
+}
+.introduce_bg{
+    width:374px;
+    height:100px;
+    background-color: #FFD2A6;
+    margin-bottom: 50px;
+}
+.introduce li{
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.5rem;
+    line-height: 56px;
+    color: #FFFFFF;
+
+}
+.story_bg{
+    width:374px;
+    height:100px;
+    background-color: #FFD2A6;
+    margin-bottom: 50px;
+}
+.guessme_bg{
+    width:374px;
+    height:100px;
+    background-color: #FFD2A6;
+    margin-bottom: 50px;
+}
+.right_text_p{
+    text-align: center;
+
+}
+.pic_social{
+    
+}
+.fb,.line,.ig{
+    margin-right: 20px;;
+}
+.mail{
+    margin-bottom: 5px;
 }
