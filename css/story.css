@@ -1,6 +1,6 @@
 html {
     width: 1440px;
-    height: 4090px;
+    height: 100%;
     background-color: #FFD2A6;
 }
 @font-face {
@@ -9,6 +9,17 @@ html {
         url(../font/jf-openhuninn-1.1.ttf) format("truetype"),
         url(../font/jf-openhuninn-1.1.eot) format("embedded-opentype");
 }
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 1440px;
+    height: 100%;
+}
+
 .sidebar {
     z-index: 1;
     overflow-x: hidden;
@@ -34,4 +45,88 @@ html {
     height: 58px;
     left: 30px;
     top: 30px;
+}
+
+.container {
+    position: absolute;
+    max-width: 1440px;
+    left: 0px;
+    top: 0px;
+    background-color: #FFD2A6;
+}
+header {
+    position: absolute;
+    width: 1440px;
+    height: 800px;
+    margin: 0px;
+}
+.header_bg {
+    margin-left: 15px;
+    width: 1380px;
+    height: 700px;
+}
+.header_p0 {
+    background-color: #68493E;
+    border-radius: 70px;
+    padding: 10px 20px;
+    width: 130px;
+    position: absolute;
+    margin-top: -620px;
+    margin-left: 319px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.header_text1 {
+    position: absolute;
+    margin-top: -500px; 
+    margin-left: 405px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 68px;
+    color: #000000;
+}
+.header_text2 {
+    position: absolute;
+    margin-top: -380px; 
+    margin-left: 350px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 68px;
+    color: #68493E;
+}
+.header_text3 {
+    position: absolute;
+    margin-top: -260px; 
+    margin-left: 510px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 68px;
+    color: #000000;
+}
+.separate-box1 {
+    position: absolute;
+    width: 1450px;
+    height: 108px;
+    margin-top: 800px;
+    background-color: #68493E;
+}
+.separate-box1 p {
+    position: absolute;
+    margin: 43px 662px;
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 22px;
+    color: #FFD2A6;
 }

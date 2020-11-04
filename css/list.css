@@ -1,0 +1,38 @@
+html{
+    width: 1440px;
+    height: 100%;
+    background-color:#534847;
+
+}
+body {
+    width: 1440px;
+    height: 100%;
+}
+
+.sidebar {
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+    position: fixed;
+    width: 100px;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    cursor: default;
+    background-color: #FFD2A6;
+}
+.menu {
+    position: relative;
+    left: 29.17%;
+    right: 29.17%;
+    top: 1.08%;
+    bottom: 97.85%;
+}
+ul li{
+    list-style-type:none;
+}
+.container{
+    margin:50px 30px 30px 30px;
+    display:flex;
+
+}
