@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /*outline:#00FF00 solid 1px;*/
+    /*font-family:'open-sans-bold', AvenirNext- Medium, sans-serif;*/
+    font-family: 'Unica One', sans-serif;
+}
+/* This class is added on scroll */
+.fixed{
+    position: fixed;
+    top: 0;
+    height: 70px;
+    z-index: 1;
+}
+body{
+    color: #ffffff;
+    font-size:18px;
+    text-align: center;
+}
+/*Navigation Settings , 讓選單向下置中與底端平衡*/
+nav{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
+nav li{
+    display: inline-block;
+    padding: 0 10px;
+    float: left;
+    left: 0;
+}
+nav li a {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+section{
+    height: 100vh;
+}
+/*Screens Settings*/
+
+
+.vo{
+    width: 100%;
+}
+
+/*-----------------------------------------------------------*/
+/*menuControl連結區域*/
+.menuControl{
+    width: 100px;
+    height: 100%;
+    display: block;
+    border: 5px solid rgba(255,255,255,.002);
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    transform-origin: 50% 50%;
+    z-index: 15;
+    background-color: #534847;
+}
+.line{
+    z-index: 16;
+    display: block;
+    width: 45px;
+    height: 5px;
+    background-color:#FFEAD5;
+    top: 22px;
+    /* right: 0; */
+    left: 30px;/* 改 */
+    position: absolute;
+    transition: all .5s cubic-bezier(0.25,0.1,0.25,1);/* 改 */
+}
+
+/*三條橫條線無特效*/
+.line:nth-child(2){
+    /* top: 2vh; */
+    top: 12px;/* 改 */
+    transform-origin: left center;
+}
+.line:nth-child(3){
+    /* top: 4vh; */
+    top: 32px;/* 改 */
+    transform-origin: left center;
+}
+/*中央槓子hidden*/
+.line.spin2:nth-child(1) {
+    /*opacity: 0;*/
+    left: 300px;
+    transition: all 0.3s ease-in;
+}
+/*會改變方向意思*/
+.line.spin2:nth-child(2) {
+    top: 7px;/* 改 */
+    left: 7px;/* 改 */
+    transform: rotate(45deg);
+    transition: all 0.3s ease-in;
+}
+.line.spin2:nth-child(3) {
+    top: 37px;/* 改 */
+    left: 7px;/* 改 */
+    transform: rotate(-45deg);
+    transition: all 0.3s ease-in;
+}
+/*2與3的hover改變*/
+.menuControl:hover .line:nth-child(2){
+    top: 7px;/* 改 *//* 改 */
+    transition: all .5s cubic-bezier(0.25,0.1,0.25,1);
+}
+.menuControl:hover .line:nth-child(3){
+    top: 37px;/* 改 */
+    transition: all .5s cubic-bezier(0.25,0.1,0.25,1);
+}
+/*----------------------------------------------------*/
+.hatPic{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+/*-------------------------------------------------*/
+/*左邊出現隱藏起來的選單，.sidebar從這邊開始寫*//*!*首頁+第二頁選單menu(css樣式)我想要東西**/
+.sidebar {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: #534847;
+    transition: .5s cubic-bezier(.63,1.57,.82,1.35);
+}
+.sidebar.active{/*連在一起就(連動)視同一個標籤*/
+    left: 0;
+    transition: .5s cubic-bezier(.63,1.57,.82,1.35);
+    color:#fff;
+}
+.sidebar-list {
+    padding: 0;
+    list-style: none;
+    position: relative;
+    margin-top: 150px;
+    text-align: center;
+}
+.sidebar-item {
+    margin: 50px 0;
+    opacity: 1;
+    transform: translateY(-20px);
+    font-family: 'jf-openhuninn-1.1';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.5rem;
+    line-height: 100px;
+    text-align: center;
+    color: #ffffff;
+}
+/*------------------------------------------------------*/
+/*-------------------------------------------------*/
+.bgfake{
+    width: 90%;
+    /*height: 100%;*/
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    font-size: 0;/*用處是把4px的距離給拿掉*/
+    /*border: 1px solid #575757;*/
+}
+.bgfake:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 100%;
+    bottom: 0;
+    position: relative;
+}
+.text{
+    display: inline-block;
+    vertical-align: middle;
+
+    /*border: 5px solid green;*/
+    font-size: 16px;
+    width: 33.33333333%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px 20px;
+    color: #000;
+}
+.picss{
+    width: 90%;
+    vertical-align: middle;
+}
+.braBra{
+    text-align: left;
+    line-height: 25px;
+}

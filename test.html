@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+    <link rel="stylesheet" href="css/test.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth&family=Itim&display=swap" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.js" lang="javascript"></script>
+    <script lang="javascript">
+        $(function() {
+            $(window).bind('scroll', function() {
+        var navHeight = $( window ).height() -70;
+    if ($(window).scrollTop() > navHeight) {
+        $('nav').addClass('fixed');
+    }
+    else {
+        $('nav').removeClass('fixed');
+    }
+});
+
+//    ---------------------------------------------------------------------------------
+//只有交叉特效，還未連結nav選單。從左側邊出來，選單會有箭頭標示引導!!
+$('.menuControl').click(function () {
+    //動xx就可以動作 來回
+    $('.line').toggleClass('spin2');
+    //sidebar
+    $('.sidebar').toggleClass('active');
+});
+});
+    </script>
+</head>
+<body>
+    <body>
+  
+            <nav>
+                <!--menu部分 2-->
+                <div class="navbarLeft">
+                    <a href="javascript:;" class="menuControl">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </a>
+                </div>
+            </nav>
+            <div class="sidebar"><!--/*sidebar active*/-->
+                <div class="box a_first"></div>
+                <div class="box b_sec"></div>
+                <div class="box c_third"></div>
+                <div class="box d_four"></div>
+                <div class="box e_five">
+                    <ul class=sidebar-list"><!--/*sidebar-list active*/-->
+                        <li class="sidebar-item"><a href="index.html" class="sidebar-anchor">首頁</a></li>
+                        <li class="sidebar-item"><a href="introduce.html" class="sidebar-anchor">關於我</a></li>
+                        <li class="sidebar-item"><a href="story.html" class="sidebar-anchor">神秘傳說</a></li>
+                        <li class="sidebar-item"><a href="guessme.html" class="sidebar-anchor">猜猜我是誰</a></li>
+                     </ul>
+                </div>
+            </div>
+        </section>
+
+    
+    </body>
+</body>
+</html>
